@@ -19,10 +19,10 @@ const Register = () => {
           <span className='text-gray-100'>Create an account with us</span>
         </div>
         <form className='flex w-4/5 flex-col gap-4 mt-12' onSubmit={registerUser}>
-          <InputGroup type='text' labelText='First Name' placeholder='caleb' />
-          <InputGroup type='text' labelText='Last Name' placeholder='caleb' />
-          <InputGroup type='text' labelText='Username' placeholder='caleb' />
-          <InputGroup type='text' labelText='Email' placeholder='caleb' />
+          <InputGroup type='text' labelText='First Name' placeholder='Caleb' />
+          <InputGroup type='text' labelText='Last Name' placeholder='Matthew' />
+          <InputGroup type='text' labelText='Username' placeholder='caleb081' />
+          <InputGroup type='text' labelText='Email' placeholder='caleb@gmail.com' />
           <InputGroup type='text' labelText='Phone Number' placeholder='caleb' />
           <InputGroup type='password' labelText='Password' placeholder='* * * * *' />
           <InputGroup type='password' labelText='Confirm Password' placeholder='* * * * *' />
