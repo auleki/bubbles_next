@@ -1,10 +1,10 @@
 import { Inter } from 'next/font/google'
-import Login from './auth/login'
+import Landing from './Landing'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Login />
+    <Landing />
   )
 }
